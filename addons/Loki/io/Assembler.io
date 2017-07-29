@@ -760,7 +760,7 @@ x86 do(
 		//	mnops := mn map( at(0) split(",") )
 		//	mnops at(0) asNakedString(",") println
 
-			if( mnops isEmpty, Exception raise("parse error, unknow encoding") )
+			if( mnops isEmpty, Exception raise("parse error, unknown encoding") )
 
 		//	"\n" print
 		//	encoding size / 2
